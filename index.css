@@ -1,0 +1,39 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    
+}
+
+.keys{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 650px;
+    background-image: url("1.jpg");
+    box-shadow: 5px 5px 8px rgb(204, 129, 17);
+    
+    
+}
+
+.key{
+    height: 100px;
+    width: 100px;
+    color: #db14a9;
+    text-align: center;
+    line-height: 50px;
+    background-color: #0eda29;
+    opacity: 0.7;
+    font-weight: bold;
+    border: 2px solid black;
+    transition: all 0.07s;
+
+    
+}
+
+.playing{
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 10px #ffc600 ;
+}
